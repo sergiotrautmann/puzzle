@@ -217,7 +217,7 @@ class PuzzlerGame():
         game_over = False
         level = l
         img = self.img_list[level]
-        self.image = pg.image.load("E:/PUZZLE/" + img)
+        self.image = pg.image.load("PUZZLE/" + img)
 
         self.gameWindow.fill((190, 190, 190))
         for r in range(self.coloumn):
